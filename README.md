@@ -48,6 +48,8 @@ Options:
 
 ## Example
 
+Using the defaults:
+
 ```bash
 [09:34][~] # Text in clipboard: I walk to the store and I bought milk
 [09:34][~] grammatical
@@ -55,6 +57,17 @@ Modified Text:
 "I walked to the store and bought milk."
 Text copied to clipboard.
 [09:34][~]
+```
+
+With options:
+
+```bash
+[14:39][~] # Text in clipboard: This tool does need access to [OpenAI's API](https://openai.com/pricing). It uses the `gpt-3.5-turbo` model.
+[14:40][~] grammatical --tone "documentation" -i "markdown" -o "markdown"
+Modified Text:
+ This tool requires access to [OpenAI's API](https://openai.com/pricing), utilizing the `gpt-3.5-turbo` model.
+Text copied to clipboard.
+[14:40][~]
 ```
 
 # My MacOS Workflow
