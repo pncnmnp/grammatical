@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="grammatical",
-    version="0.2.0",
+    version="0.2.1",
     author="Parth Parikh",
     author_email="parthparikh1999p@gmail.com",
     description="Corrects the spelling and grammar of your text using ChatGPT.",
