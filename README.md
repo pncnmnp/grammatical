@@ -6,7 +6,7 @@ _Corrects the spelling and grammar of your text using ChatGPT._
 
 # Motivation
 
-I have been using this tool internally for a while now. It excellently simplifies complex technical language and perfectly complements [Grammarly](https://www.grammarly.com/).
+I have been using this tool internally for a while now. It is not only good at correcting spelling and grammar in your text, but it is also excellent at simplifying complex technical language. Additionally, it perfectly complements [Grammarly](https://www.grammarly.com/).
 
 # Install
 
@@ -57,10 +57,11 @@ Text copied to clipboard.
 
 # My MacOS Workflow
 
-For my macOS workflow, I have [created a new `Application` in Automator](https://apple.stackexchange.com/questions/419767/how-to-create-a-shortcut-for-a-command-in-terminal-that-i-can-have-in-my-dock) that runs "Grammatical" for 
+For my macOS workflow, I have [created a new `Application` in Automator](https://apple.stackexchange.com/questions/419767/how-to-create-a-shortcut-for-a-command-in-terminal-that-i-can-have-in-my-dock) that runs "Grammatical" for
 convenience. I have also dragged it to the Dock.
 
 Here is the AppleScript that I am using:
+
 ```applescript
 tell application "Terminal"
     activate
