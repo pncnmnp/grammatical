@@ -69,7 +69,21 @@ def verify_text_length(text):
     show_default=True,
     is_flag=True,
 )
-def grammatical(text, api_key, tone, simplify):
+@click.option(
+    "--input_format",
+    "-i",
+    help="Specify the input format",
+    default="text",
+    show_default=True,
+)
+@click.option(
+    "--output_format",
+    "-o",
+    help="Specify the output format",
+    default="text",
+    show_default=True,
+)
+def grammatical(text, api_key, tone, simplify, input_format, output_format):
     """
     Corrects the spelling and grammar of the text.
     """
@@ -92,6 +106,8 @@ def grammatical(text, api_key, tone, simplify):
                     f"And correct the spelling of the words, if necessary?"
                     f"{simplify_text}"
                     f"I need it for {tone}, so keep the tone specific to that."
+                    f"The input format of the text is {input_format}"
+                    f" and I want the output format to be {output_format}."
                     f"\n\n Text is: {chunk}",
                 },
             ],
