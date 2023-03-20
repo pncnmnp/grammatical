@@ -40,6 +40,16 @@ Options:
   --help          Show this message and exit.
 ```
 
+## Example
+
+```bash
+[09:34][~] grammatical
+Modified Text: 
+"I walked to the store and bought milk."
+Text copied to clipboard.
+[09:34][~]
+```
+
 # License
 
 Under MIT License. The logo is [made using Midjourney](https://docs.midjourney.com/docs/terms-of-service) and licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
