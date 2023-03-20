@@ -8,7 +8,7 @@ setuptools.setup(
     version="0.1.0",
     author="Parth Parikh",
     author_email="parthparikh1999p@gmail.com",
-    description="Corrects the spelling and grammar of the text using ChatGPT.",
+    description="Corrects the spelling and grammar of your text using ChatGPT.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     py_modules=["grammatical"],

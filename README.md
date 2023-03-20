@@ -19,7 +19,7 @@ python3 -m pip install grammatical
 ```bash
 Usage: grammatical [OPTIONS]
 
-  Corrects the spelling and grammar of the text.
+  Corrects the spelling and grammar of your text using ChatGPT.
 
 Options:
   --text TEXT               Text input for grammar correction
