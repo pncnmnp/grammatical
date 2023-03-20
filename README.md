@@ -16,7 +16,7 @@ python3 -m pip install grammatical
 
 # Usage
 
-This tool **requires access to the [OpenAI API](https://openai.com/pricing)**. It utilizes the `gpt-3.5-turbo` model.
+This tool **requires access to the [OpenAI API](https://openai.com/pricing)**. It utilizes the `gpt-3.5-turbo` model. When the spelling and grammar have been corrected, the resulting text will be automatically copied to the clipboard.
 
 ```bash
 Usage: grammatical [OPTIONS]
@@ -50,7 +50,7 @@ Options:
 
 Using the defaults:
 
-```bash
+```
 [09:34][~] # Text in clipboard: I walk to the store and I bought milk
 [09:34][~] grammatical
 Modified Text:
@@ -61,7 +61,7 @@ Text copied to clipboard.
 
 With options:
 
-```bash
+```
 [14:39][~] # Text in clipboard: This tool does need access to [OpenAI's API](https://openai.com/pricing). It uses the `gpt-3.5-turbo` model.
 [14:40][~] grammatical --tone "documentation" -i "markdown" -o "markdown"
 Modified Text:
