@@ -6,7 +6,7 @@ _Corrects the spelling and grammar of your text using ChatGPT._
 
 # Motivation
 
-I have been using this tool internally for a while now. It is not only good at correcting spelling and grammar in your text, but it is also excellent at simplifying complex technical language. Additionally, it perfectly complements [Grammarly](https://www.grammarly.com/).
+I have been using this CLI tool internally for a while now. It is not only good at correcting spelling and grammar in your text, but it is also excellent at simplifying complex technical language. Additionally, it perfectly complements [Grammarly](https://www.grammarly.com/).
 
 # Install
 
@@ -15,6 +15,8 @@ python3 -m pip install grammatical
 ```
 
 # Usage
+
+This tool **requires access to the [OpenAI API](https://openai.com/pricing)**. It utilizes the `gpt-3.5-turbo` model.
 
 ```bash
 Usage: grammatical [OPTIONS]
